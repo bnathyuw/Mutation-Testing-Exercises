@@ -9,6 +9,7 @@ namespace MutationTestingExercises.Exercise1CallCentre
 
     public class SalesMonitor
     {
+        private const int HighValueThreshold = 100;
         private readonly List<Alert> _alerts = new List<Alert>();
 
         public void AddAlert(Alert alert)
@@ -18,7 +19,7 @@ namespace MutationTestingExercises.Exercise1CallCentre
 
         public void ProcessSale(int amount)
         {
-            if (amount < 100)
+            if (amount < HighValueThreshold)
                 return;
 
             foreach (var alert in _alerts)
