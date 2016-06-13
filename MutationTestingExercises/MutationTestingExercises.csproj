@@ -54,6 +54,8 @@
   <ItemGroup>
     <Compile Include="Exercise1CallCentre\SalesMonitor.cs" />
     <Compile Include="Exercise1CallCentre\SalesMonitorShould.cs" />
+    <Compile Include="Exercise2WebApi\RequestHandlerResolver.cs" />
+    <Compile Include="Exercise2WebApi\RequestHandlerResolverShould.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
