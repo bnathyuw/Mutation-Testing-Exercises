@@ -56,6 +56,10 @@
     <Compile Include="Exercise1CallCentre\SalesMonitorShould.cs" />
     <Compile Include="Exercise2WebApi\RequestHandlerResolver.cs" />
     <Compile Include="Exercise2WebApi\RequestHandlerResolverShould.cs" />
+    <Compile Include="Exercise3PostageCalculator\Calculator.cs" />
+    <Compile Include="Exercise3PostageCalculator\CalculatorShould.cs" />
+    <Compile Include="Exercise3PostageCalculator\Currency.cs" />
+    <Compile Include="Exercise3PostageCalculator\Money.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
